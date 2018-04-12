@@ -1,0 +1,69 @@
+@font-face {
+    font-family: awesomefont;
+    src: url(fonts/fontawesome-webfont.woff);
+}
+
+@font-face {
+    font-family: consolas;
+    src: url(fonts/consola.ttf);
+}
+
+/*@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Light.ttf);
+}*/
+
+.bottom_bar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.close_btn_bg{
+    background-color: rgba(255, 54, 54, 0.58);
+    height: 34px;
+    width: 36px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border: none;
+}
+
+.close_btn_bg:hover{
+    background-color: rgba(255, 0, 0, 0.89);
+}
+
+.close_btn{
+    height: 16px;
+    width: 28px;
+    margin-left: 4px !important;
+    padding-top: 5px;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.info_img_bg{
+    background-color: rgba(27, 195, 195, 0.58) !important;
+    height: 34px;
+    width: 38px;
+    top: 0px;
+    left: 36px;
+    position: absolute;
+    background: none;
+    /*border-bottom-right-radius: 12px;*/
+}
+
+.info_img{
+    height: 23px;
+    width: 23px;
+    margin-left: -6px;
+    padding-left: 7px;
+    padding-top: 5px;
+
+}
+
+.info_img_bg:hover{
+    background-color: rgba(0, 255, 255, 0.77) !important;
+}

@@ -1,0 +1,162 @@
+body{
+	/*background-image: url(img/bg/bg-img.jpg);*/
+	background-color: #2e3542;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+h2{
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 300 !important;
+}
+
+td{
+	/*background-color: transparent;
+	border-width: thick;*/
+	border-bottom: -1px !important;
+	border-right: -1px !important;
+	height: 58px !important;
+	width: 58px !important;
+	text-overflow: hidden !important;
+	overflow: hidden !important;
+}
+
+th{
+	height: 16px;
+	width: 58px;
+}
+
+.head_bar{
+	height: 42px !important;
+	top: 0px !important;
+	margin-bottom: 24px;
+}
+
+.head_bar_p{
+	top: 4px;
+	left: 41%;
+	font-family: Roboto;
+	width: auto;
+	height: 36px;
+	position: absolute !important;
+	color: rgba(255, 255, 255, 0.87);
+	/*text-rendering: optimizeLegibility;*/
+	text-decoration: none;
+	font-size: 26px !important;
+	/*-webkit-user-select: none;
+	-webkit-app-region: drag;*/
+}
+
+.master_table_div{
+	padding-top: 0px;
+	padding-left: 4%;
+	padding-bottom: 2%;
+}
+
+.table_div{
+	padding-left: 17px;
+}
+
+.table_main{
+	font-family: Roboto;
+	text-rendering: optimizeLegibility;
+	text-overflow: hidden;
+	font-size: 17px;
+	text-align: center;
+	border: none;
+	color: rgba(255, 255, 255, 0.81);
+}
+
+.last2rows{
+	padding-top: 20px !important;
+}
+
+.num_bar_table{
+	background-color: #252932;
+	font-family: consolas;
+	font-size: 11px;
+	color: #505e76;
+}
+
+.num_bar_table_v{
+	padding-left: 3px;
+	position: absolute;
+	height: 54px;
+	width: 17px;
+	background-color: #1f232a;
+	font-family: consolas;
+	font-size: 11px;
+	color: #505e76;
+}
+
+/*ELEMENT WISE TABLE DATA CONFIG*/
+
+.no_inv:hover{
+	background-color: rgba(241, 241, 241, 0.95) !important;
+	height: 58px;
+	width: 58px;
+	color: black !important;
+	cursor: pointer;
+}
+
+.no_inv{
+	background-color: rgba(171, 171, 171, 0.65) !important;
+}
+
+.hydrogen,.carbon,.nitrogen,.oxygen,.phosphorus,.sulfur,.selenium{
+	background-color: #424487 !important;
+	color: #a8aef8 !important;
+}
+
+.beryllium,.magnesium,.calcium,.strontium,.barium,.radium{
+	background-color: #685146 !important;
+	color: #e8d1c6 !important;
+}
+
+.helium,.neon,.argon,.krypton,.xenon,.radon,.ununoctium{
+	background-color: #6b468a !important;
+	color: #ebc6ff !important;
+}
+
+.lithium,.sodium,.potassium,.rubidium,.cesium,.francium{
+	background-color: #63414b !important;
+	color: #e3c1cb !important;
+}
+
+.fluorine,.chlorine,.bromine,.iodine,.astatine,.ununseptium{
+	background-color: #534693 !important;
+	color: #d3c6ff !important;
+}
+
+.boron,.silicon,.germanium,.arsenic,.antimony,.tellurium,.polonium{
+	background-color: #2a5374 !important;
+	color: #7ed3f4 !important;
+}
+
+.aluminum,.gallium,.indium,.tin,.thallium,.lead,.bismuth,.ununtrium,.ununquadium,.ununpentium,.ununhexium{
+	background-color: #2f6859 !important;
+	color: #8de8d9 !important;
+}
+
+.scandium,.titanium,.vanadium,.chromium,.manganese,.iron,.cobalt,.nickel,.copper,.zinc,.yttrium,
+.zirconium,.niobium,.molybdenum,.technetium,.ruthenium,.rhodium,.palladium,.silver,.cadmium,.hafnium,
+.tantalum,.tungsten,.rhenium,.osmium,.iridium,.platinum,.gold,.mercury,.rutherfordium,.dubnium,.seaborgium,.bohrium,.hassium,.meitnerium,
+.darmstadtium,.roentgenium,.copernicium{
+	background-color: #46536c !important;
+	color: #c6d3ec !important;
+}
+
+.lanthanium,.Cerium,.praseodymium,.neodymium,.promethium,.samarium,.europium,.gadolinium,.terbium,
+.dysprosium,.holmium,.erbium,.thulium,.ytterbium,.lutetium{
+	background-color: #534e4b !important;
+	color: #d2cdca !important;
+}
+
+.actinium,.thorium,.protactinium,.uranium,.neptunium,.plutonium,.americum,.curium,.berkelium,
+.californium,.einsteinium,.fermium,.mendelevium,.nobelium,.lawrencium{
+	background-color: #534345 !important;
+	color: #d2c3c5 !important;
+}
